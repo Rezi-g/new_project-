@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+}
+html,body{
+    position: relative;
+    height: 100%;
+}
+body{
+	font-family: Arial, Sylfaen, sans-serif;
+	color: #2c2c2c;
+    font-size: 12px;
+	
+}
+header{
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+.head{
+	width: 100%;
+	height: 71px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	border-top: 2px solid #0083ca;
+}
+.head-menu{
+	width: 980px;
+	height: 68px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 22px;
+	background: green;
+}
+.logo a{
+	width: 171px;
+	height: 68px;
+	display: block;
+	z-index: 10;
+	background-image: url(../img/logoo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+.menu{
+	display: flex;
+	margin-left: 230px;
+}
+
+.menu ul{
+	display: block;
+	list-style-type: disc;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	height: 70px;
+	position: relative;
+	margin-left: 9px;
+	display: list-item;
+}
+.menu ul li a{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+.menu ul li a span{
+	margin-top: 49px;
+	display: inline-block;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Arial, bpg_mrgvlovani_caps_2010_small;
+	
+}
+.tv{
+	width: 38px;
+	height: 45px;
+	background-image: url(../img/tv-icon-hover.png);
+	display: block;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	
+}
+.movie,.tv-serial,.cine-mania,.kids,.chcd,.got,.game,.sport{
+	width: 50px;
+	height: 45px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.movie{
+	background-image: url(../img/movie.png);
+
+}
+.tv-serial{
+	background-image: url(../img/tv-serie.png);
+
+}
+.cine-mania{
+	background-image: url(../img/cinemania_white.png);
+}
+.kids{
+	background-image: url(../img/Kids-white.png);
+	width: 45px;
+	background-size: 25px;
+}
+.chcd{
+	background-image: url(../img/chcd.png);
+	width: 41px;
+	background-size: 25px;
+}
+.got{
+	background-image: url(../img/Got-white.png);
+	background-size: 35px;
+	width: 48px;
+}
+.game{
+	background-image: url(../img/games.png);
+}
+.sport{
+	background-image: url(../img/sport.png);
+	width: 48px;
+	background-size: 25px;
+}
+/*hoveris nawili menuze */
+movie:hover,.tv-serial:hover,.cine-mania:hover,.kids:hover,.chcd:hover,.got:hover,.game:hover,.sport:hover,.tv:hover,.movie:hover{
+	cursor: pointer;
+	color: #0083ca;
+}
+   /*შესვლის ღილაკი*/
+.profile{
+	width: 112px;
+	height: 35px;
+	background-color: #0083ca;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	position: absolute;
+	left: 885px;
+	top: 17px;
+	border-radius: 3px;
+}
+.profile a{
+	line-height: 35px;
+	color: #fff;
+	font-size: 11.43px;
+	font-family: Arial, bpg_mrgvlovani_caps_2010_small;
+	text-decoration: none;
+}
+.profile a span{
+	background-position: -74px 0;
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+}
+  /*searchis nawili*/
+.search-inpu{
+	z-index: 8;
+	width: 900px;
+	position: relative;
+	margin: -45px auto 0;
+	height: 45px;
+	top: 441%;
+	right: 3.5%;
+}
+input,#search{
+	background-color: rgba(255, 255, 255, .6);
+	height: 33px;
+	line-height: normal;
+	padding: 0 45px;
+	color: #2c2c2c;
+	margin-right: 10px;
+	width: 950px;
+	position: absolute;
+	z-index: 4;
+	top: 5px;
+	border-radius: 4px;
+	opacity: 1;
+	font-family: bpg_mrgvlovani_caps_2010_small, serif;
+	font-size: 15.24px;
+	box-sizing: border-box;
+	left: 0;
+	text-align: center;
+	border: none;
+}
+input,.go{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	margin: 0;
+	top: 7px;
+	cursor: pointer;
+}
+ /* slaidshouw */
+
